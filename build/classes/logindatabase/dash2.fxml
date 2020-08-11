@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1024.0" style="-fx-background-radius: 30px;;" styleClass="parent" stylesheets="@StyleSheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="45.0" styleClass="sidebar" BorderPane.alignment="CENTER">
+         <children>
+            <FontAwesomeIcon fill="#4c4c4e" glyphName="BARS" layoutX="14.0" layoutY="31.0" size="1.5em" AnchorPane.leftAnchor="14.5" AnchorPane.rightAnchor="14.5" AnchorPane.topAnchor="15.0" />
+            <VBox layoutX="13.0" layoutY="216.0">
+               <children>
+                  <FontAwesomeIcon fill="#00acee" glyphName="HOME" size="1.5em" />
+                  <FontAwesomeIcon glyphName="LIST_UL" size="1.5em" styleClass="sidebar opt">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </FontAwesomeIcon>
+                  <FontAwesomeIcon glyphName="IMAGE" size="1.5em" styleClass="sidebar opt">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </FontAwesomeIcon>
+                  <FontAwesomeIcon glyphName="GEAR" size="1.5em" styleClass="sidebar opt">
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </FontAwesomeIcon>
+                  <Separator>
+                     <VBox.margin>
+                        <Insets bottom="15.0" top="15.0" />
+                     </VBox.margin>
+                  </Separator>
+                  <FontAwesomeIcon fill="#4c4c4e" glyphName="PLUS" size="1.5em" />
+               </children>
+            </VBox>
+            <Circle fill="WHITE" layoutX="22.0" layoutY="565.0" radius="15.0" stroke="#c1c1c1" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton layoutX="150.0" layoutY="-4.0" prefHeight="35.0" prefWidth="185.0" text="Home">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="333.0" layoutY="-4.0" prefHeight="35.0" prefWidth="185.0" text="Menu">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXButton layoutX="520.0" layoutY="-4.0" prefHeight="35.0" prefWidth="185.0" text="Checkout">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
