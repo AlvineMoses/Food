@@ -1,8 +1,6 @@
 <component name="libraryTable">
-  <library name="lib">
+  <library name="fontawesomefx-8.2">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/dist/lib/TrayTester.jar!/" />
-      <root url="jar://$PROJECT_DIR$/dist/lib/jfoenix-8.0.4.jar!/" />
       <root url="jar://$PROJECT_DIR$/dist/lib/fontawesomefx-8.2.jar!/" />
     </CLASSES>
     <JAVADOC />

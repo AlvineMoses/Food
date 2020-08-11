@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
-<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
@@ -11,7 +10,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="logindatabase.FXMLDocumentController">
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="logindatabase.FXMLDocumentController">
    <children>
       <AnchorPane fx:id="layersignup" prefHeight="500.0" prefWidth="632.0">
          <children>
@@ -34,22 +33,22 @@
                   </Label>
                   <JFXButton alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="182.0" layoutY="432.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 300; -fx-text-fill: white; -fx-background-color: #00acee;;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                      <graphic>
-                        <FontAwesomeIcon fill="WHITE" glyphName="FACEBOOK" textAlignment="CENTER" />
+<!--                        <FontAwesomeIcon fill="WHITE" glyphName="FACEBOOK" textAlignment="CENTER" />-->
                      </graphic>
                   </JFXButton>
                   <JFXButton alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="231.0" layoutY="432.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 300; -fx-text-fill: white; -fx-background-color: #d44638;;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                      <graphic>
-                        <FontAwesomeIcon fill="WHITE" glyphName="GOOGLE" textAlignment="CENTER" />
+<!--                        <FontAwesomeIcon fill="WHITE" glyphName="GOOGLE" textAlignment="CENTER" />-->
                      </graphic>
                   </JFXButton>
                   <JFXButton alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="280.0" layoutY="432.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-radius: 300; -fx-text-fill: white; -fx-background-color: #a27452;" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                      <graphic>
-                        <FontAwesomeIcon fill="WHITE" glyphName="LINKEDIN" textAlignment="CENTER" />
+<!--                      <FontAwesomeIcon fill="WHITE" glyphName="LINKEDIN" textAlignment="CENTER" />-->
                      </graphic>
                   </JFXButton>
                   <TextField fx:id="u1" layoutX="119.0" layoutY="218.0" prefHeight="32.0" prefWidth="258.0" promptText="Name" />
                   <TextField fx:id="u2" layoutX="119.0" layoutY="268.0" prefHeight="32.0" prefWidth="258.0" promptText="Email" />
-                  <TextField fx:id="u3" layoutX="119.0" layoutY="316.0" prefHeight="32.0" prefWidth="258.0" promptText="Password" />
+                  <PasswordField fx:id="u3" layoutX="119.0" layoutY="318.0" prefHeight="32.0" prefWidth="258.0" promptText="Password" />
                   <JFXButton fx:id="btnsignup" layoutX="189.0" layoutY="365.0" onMouseClicked="#btnsignup" prefHeight="32.0" prefWidth="118.0" style="-fx-background-color: transparent;; -fx-background-radius: 200; -fx-text-fill: #a27452;; -fx-border-radius: 200;; -fx-border-color: #a27452;;" text="SIGN UP" />
                   <Label fx:id="b1" alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="405.0" prefHeight="10.0" prefWidth="267.0" text="or use Social Accounts" textAlignment="CENTER" textFill="#300d33">
                      <font>

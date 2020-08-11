@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="LoginDatabase">
+  <library name="jfoenix-9.0.10">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/dist/LoginDatabase.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/other/jfoenix-9.0.10.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
