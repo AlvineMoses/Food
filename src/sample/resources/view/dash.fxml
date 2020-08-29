@@ -16,7 +16,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0"
             prefWidth="1024.0" styleClass="parent" stylesheets="/sample/resources/css/StyleSheet.css"
-            xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.dashController">
+            xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.dashController">
     <children>
         <Pane layoutX="-9.0" layoutY="-4.0" prefHeight="631.0" prefWidth="50.0" styleClass="sidebar"
               stylesheets="/sample/resources/css/StyleSheet.css">
@@ -87,7 +87,7 @@
                     </font>
                 </Label>
                 <FontAwesomeIcon fill="#fcf9f9" glyphName="GEAR" layoutX="876.0" layoutY="38.0" size="2em"/>
-                <JFXButton layoutX="905.0" layoutY="10.0" style="-fx-background-color: transparent;" text="Logout"
+                <JFXButton fx:id="logout"  layoutX="905.0" layoutY="10.0" style="-fx-background-color: transparent;" onMouseClicked="#logout" text="Logout"
                            textFill="WHITE">
                     <font>
                         <Font size="16.0"/>
