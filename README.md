@@ -11,6 +11,8 @@ For log in you will use the credentials 'Alvin' as the username and 'OOP' as the
 <h2>Running the program</h2>
 <p>
 Run the program through the main method located in the src/sample/ run the Main class 
+
+Install fonts that are in the src/sample/resources/css folder for a much cleaner GUI experience
 </p>
 
 <h2>Libraries Used</h2>
